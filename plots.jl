@@ -14,7 +14,7 @@ savefig("2d.png")
 surface(arr, xlabel = L"x", ylabel = L"y", zlabel = L"f(x, y)", dpi = 500)
 savefig("3d.png")
 
-# @gif for angle = 0:1:90
-#     surface(arr, camera = (angle, 30), xlabel = L"x", ylabel = L"y", zlabel = L"f(x, y)", dpi = 300)
-# end
+@gif for angle = 0:1:90
+    surface(arr, camera = (angle, 30), xlabel = L"x", ylabel = L"y", zlabel = L"f(x, y)", dpi = 300)
+end
 
